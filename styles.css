@@ -138,7 +138,7 @@ a:hover {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 12.5%;
+    padding: 0 25%;
 }
 
 .quote-main {
@@ -152,8 +152,58 @@ a:hover {
 
 .quoted-figure {
     display: flex;
-    font-size: 24px;
+    font-size: 28px;
     font-style: italic;
     justify-content: flex-end;
     margin-top: 5%;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 0 13%;
+}
+
+.action-box {
+    display: flex;
+    flex: 1;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 0 12.5%;
+    color: #F9FAF8;
+}
+
+.action-main {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.action-sub {
+    color: #E5E7EB;
+}
+
+.sign-up-action {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    padding: 1% 4%;
+    font-weight: bold;
+    max-width: auto;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
